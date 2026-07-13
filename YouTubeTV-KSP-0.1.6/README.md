@@ -1,5 +1,7 @@
 # YouTube TV plugin for KSP 1
 
+https://youtu.be/IdphtPwK4Zg?si=SqxMQUT4m5oAUXcC
+
 An unofficial Wild Blue Industries add-on that turns WBI plasma-screen parts into spatial video displays. It keeps the original `WBIPlasmaTV` screenshot picker and adds a second PartModule, `WBIYouTubeTV`, for video.
 
 ## Features
