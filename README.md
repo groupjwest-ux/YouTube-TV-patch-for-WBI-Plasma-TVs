@@ -1,0 +1,2 @@
+# YouTube-TV-patch-for-WBI-Plasma-TVs
+A Kerbal Space Program 1 plugin that lets Wild Blue Industries plasma TVs and kPads play YouTube videos, direct media streams, and local video files using Unity’s VideoPlayer and optional yt-dlp integration.
