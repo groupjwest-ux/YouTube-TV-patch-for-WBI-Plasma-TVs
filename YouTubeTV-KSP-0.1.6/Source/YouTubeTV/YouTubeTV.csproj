@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C74E753-E429-483E-86F2-C2DD06B97853}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WildBlueIndustries.YouTubeTV</RootNamespace>
+    <AssemblyName>YouTubeTV</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <REFERENCE_MANAGED Condition=" '$(REFERENCE_MANAGED)' == '' and '$(KSP_ROOT)' != '' ">$(KSP_ROOT)\KSP_x64_Data\Managed</REFERENCE_MANAGED>
+    <REFERENCE_MANAGED Condition=" '$(REFERENCE_MANAGED)' == '' ">$(MSBuildThisFileDirectory)..\..\ReferenceAssemblies\Managed</REFERENCE_MANAGED>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp"><HintPath>$(REFERENCE_MANAGED)\Assembly-CSharp.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="Assembly-CSharp-firstpass"><HintPath>$(REFERENCE_MANAGED)\Assembly-CSharp-firstpass.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="Ionic.Zip"><HintPath>$(REFERENCE_MANAGED)\Ionic.Zip.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="KSPAssets"><HintPath>$(REFERENCE_MANAGED)\KSPAssets.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="KSPTrackIR"><HintPath>$(REFERENCE_MANAGED)\KSPTrackIR.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="Mono.Cecil"><HintPath>$(REFERENCE_MANAGED)\Mono.Cecil.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="TDx.TDxInput"><HintPath>$(REFERENCE_MANAGED)\TDx.TDxInput.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy"><HintPath>$(REFERENCE_MANAGED)\Unity.Analytics.DataPrivacy.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="Unity.Analytics.StandardEvents"><HintPath>$(REFERENCE_MANAGED)\Unity.Analytics.StandardEvents.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.AIModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.AIModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.ARModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.ARModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.AccessibilityModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.AccessibilityModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.AndroidJNIModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.AnimationModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.AnimationModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.AssetBundleModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.AssetBundleModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.AudioModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.AudioModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.ClothModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.ClothModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.ClusterInputModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.ClusterInputModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.ClusterRendererModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.CoreModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.CrashReportingModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.CrashReportingModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.DSPGraphModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.DSPGraphModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.DirectorModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.DirectorModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.GameCenterModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.GameCenterModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.GridModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.GridModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.IMGUIModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.ImageConversionModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.ImageConversionModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.InputLegacyModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.InputModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.InputModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.JSONSerializeModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.LocalizationModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.LocalizationModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.ParticleSystemModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.PerformanceReportingModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.Physics2DModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.Physics2DModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.PhysicsModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.ScreenCaptureModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.SharedInternalsModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.SpriteMaskModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.SpriteShapeModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.StreamingModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.StreamingModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.SubsystemsModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.SubsystemsModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.TerrainModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.TerrainModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.TerrainPhysicsModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.TextCoreModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.TextCoreModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.TextRenderingModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.TilemapModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.TilemapModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.UI.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.UIElementsModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.UIElementsModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.UIModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.UIModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.UNETModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.UNETModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.UnityAnalyticsModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.UnityConnectModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.UnityConnectModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.UnityWebRequestAudioModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.UnityWebRequestModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.UnityWebRequestTextureModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.UnityWebRequestWWWModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.VFXModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.VFXModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.VRModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.VRModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.VehiclesModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.VehiclesModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.VideoModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.VideoModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.WindModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.WindModule.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="UnityEngine.XRModule"><HintPath>$(REFERENCE_MANAGED)\UnityEngine.XRModule.dll</HintPath><Private>False</Private></Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="WBIYouTubeTV.cs" />
+    <Compile Include="YtDlpResolver.cs" />
+    <Compile Include="MediaUrl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <Target Name="ValidateReferences" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(REFERENCE_MANAGED)\Assembly-CSharp.dll')" Text="REFERENCE_MANAGED does not point to a valid KSP Managed folder: $(REFERENCE_MANAGED)" />
+    <Error Condition="!Exists('$(REFERENCE_MANAGED)\UnityEngine.VideoModule.dll')" Text="UnityEngine.VideoModule.dll is missing from: $(REFERENCE_MANAGED)" />
+    <Error Condition="!Exists('$(REFERENCE_MANAGED)\UnityEngine.UI.dll')" Text="UnityEngine.UI.dll is missing from: $(REFERENCE_MANAGED)" />
+  </Target>
+
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

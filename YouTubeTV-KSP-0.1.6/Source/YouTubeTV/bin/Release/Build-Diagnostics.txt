@@ -1,0 +1,88 @@
+YouTube TV 0.1.6 build diagnostics
+Compiler: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
+Exit code: 0
+Game references: C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed
+Reference count: 64
+Framework references: compiler defaults
+
+Compiler response file:
+/nologo
+/target:library
+/platform:anycpu
+/langversion:4
+/warn:4
+/utf8output
+/optimize+
+/debug:pdbonly
+/define:TRACE
+/out:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\Source\YouTubeTV\bin\Release\YouTubeTV.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\Assembly-CSharp.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\Assembly-CSharp-firstpass.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\Ionic.Zip.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\KSPAssets.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\KSPTrackIR.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\Mono.Cecil.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\TDx.TDxInput.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\Unity.Analytics.DataPrivacy.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\Unity.Analytics.StandardEvents.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.AIModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.ARModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.AccessibilityModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.AndroidJNIModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.AnimationModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.AssetBundleModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.AudioModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.ClothModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.ClusterInputModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.ClusterRendererModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.CoreModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.CrashReportingModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.DSPGraphModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.DirectorModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.GameCenterModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.GridModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.IMGUIModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.ImageConversionModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.InputLegacyModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.InputModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.JSONSerializeModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.LocalizationModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.ParticleSystemModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.Physics2DModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.PhysicsModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.SharedInternalsModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.SpriteMaskModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.SpriteShapeModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.StreamingModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.SubsystemsModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.TerrainModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.TextCoreModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.TextRenderingModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.TilemapModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.UI.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.UIElementsModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.UIModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.UNETModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.UnityConnectModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.VFXModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.VRModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.VehiclesModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.VideoModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.WindModule.dll"
+/reference:"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\ReferenceAssemblies\Managed\UnityEngine.XRModule.dll"
+"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\Source\YouTubeTV\WBIYouTubeTV.cs"
+"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\Source\YouTubeTV\YtDlpResolver.cs"
+"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\Source\YouTubeTV\MediaUrl.cs"
+"C:\Users\Johnny\Downloads\YouTubeTV-KSP-0.1.6-Windows-buildable\YouTubeTV-KSP-0.1.6\Source\YouTubeTV\Properties\AssemblyInfo.cs"
+
+Compiler output:
